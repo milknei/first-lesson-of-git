@@ -1,0 +1,193 @@
+@media only screen and (min-width: 993px){
+    body .container {
+        width: 85%;
+    }
+
+    main.container {
+        width: 95%;
+    }
+}
+
+* {
+    vertical-align: top;
+}
+
+main {
+    margin-top: 20px !important;
+}
+
+header nav {
+    height: 84px;
+    padding: 10px 40px;
+}
+
+.collection * {
+    vertical-align: middle;
+}
+
+.collection .active {
+    background: #def4ff !important;
+}
+
+.aside-nav span.badge {
+    position: absolute;
+    right: 0;
+}
+
+span.badge.new {
+    min-width: 20px;
+    width: 20px;
+}
+
+span.badge.new:after {
+    content: "";
+}
+
+.collection i {
+    position: relative;
+    bottom: 2px;
+    margin-right: 6px;
+}
+
+.card-action .row {
+    margin-bottom: 0;
+}
+
+.collection.aside-nav, .collection.aside-nav a {
+    border: none !important;
+}
+
+.aside-nav {
+    padding-top: 10px;
+}
+
+.friend {
+    text-align: center;
+}
+
+.profile-card .card-content .row {
+    margin-bottom: 0;
+}
+
+.profile-card .card-title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.297);
+}
+
+.profile-card .profile-card-content * {
+    padding-top: 15px;
+}
+
+.profile-card .card-action a {
+    display: inline-block;
+    text-align: center;
+}
+
+.profile-card .card-action a p {
+    margin-top: 0;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-right: 0;
+}
+
+.post .card-title div {
+    display: inline-block;
+}
+
+.post-date {
+    font-size: 0.6em;
+}
+
+.post .card-action i {
+    margin-right: 10px;
+}
+
+.post .card-action a {
+    margin-right: 20px !important;
+}
+
+.event-post .card-title {
+    width: 100%;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.event-post .card-action {
+    font-weight: 700;
+    text-align: end;
+}
+
+.event-post .card-content span {
+    margin-right: 20px;
+}
+
+.event-post .card-content p:first-child {
+    margin-bottom: 20px;
+}
+
+.events-header {
+    box-shadow: none;
+}
+
+.events-header a {
+    margin-top: 25px;
+}
+
+.events-header {
+    margin: 0 !important;
+}
+
+.events-header .row {
+    margin-bottom: 0;
+}
+
+input:not([type]):focus:not([readonly]) + label, input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly]) + label, input[type=email]:not(.browser-default):focus:not([readonly]) + label, input[type=url]:not(.browser-default):focus:not([readonly]) + label, input[type=time]:not(.browser-default):focus:not([readonly]) + label, input[type=date]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime]:not(.browser-default):focus:not([readonly]) + label, input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label, input[type=tel]:not(.browser-default):focus:not([readonly]) + label, input[type=number]:not(.browser-default):focus:not([readonly]) + label, input[type=search]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: rgb(0, 75, 149);
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(0, 75, 149);
+    box-shadow: 0 1px 0 0 rgb(0, 75, 149);
+}
+
+.message-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.message-preview {
+    display: inline-block;
+}
+
+.message-preview * {
+    margin: 0;
+}
+
+.messages-list .collection {
+    padding-bottom: 30px;
+}
+
+.new-message-badge {
+    position: absolute;
+    right: 15px;
+}
+
+.messages-window .collection {
+    margin-top: 0;
+}
+
+.chat-window > .container {
+    width: 100%;
+    margin: 0;
+}
+
+.message-avatar {
+    position: relative;
+    top: 20px;
+}
+
+.send-message {
+    display: flex;
+    align-items: center;
+}
